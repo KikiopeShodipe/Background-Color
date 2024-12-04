@@ -1,0 +1,18 @@
+.body1{
+    height: 300px;
+    background: linear-gradient(to left,red,blue,yellow);
+}
+.body2{
+    height: 300px;
+    background: radial-gradient(red 25%,yellow 25%,blue 25%,brown 25%); 
+}
+.body3{
+    height: 300px;
+    animation: colour 5s infinite;
+}
+@keyframes colour {
+    0% { background-color: red}
+    20% { background-color: yellow}
+    40%{ background-color: blueviolet}
+    80% { background-color: blue}
+}
